@@ -1,0 +1,9 @@
+Flask==2.1.1
+Flask-SQLAlchemy==2.5.1
+pandas==1.4.2
+SQLAlchemy==1.4.36
+psycopg2-binary==2.9.3  # If you are using PostgreSQL
+# pymysql==1.0.2       # Uncomment if you are using MySQL
+# pyodbc==4.0.32       # Uncomment if you are using MS SQL Server
+d3==0.0.10
+gunicorn==20.1.0       # For running the app in production

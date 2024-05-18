@@ -1,0 +1,21 @@
+from app import db
+
+class Data(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    end_year = db.Column(db.Integer, nullable=True)
+    intensity = db.Column(db.Float, nullable=True)
+    sector = db.Column(db.String(100), nullable=True)
+    topic = db.Column(db.String(100), nullable=True)
+    insight = db.Column(db.Text, nullable=True)
+    url = db.Column(db.String(200), nullable=True)
+    region = db.Column(db.String(100), nullable=True)
+    start_year = db.Column(db.Integer, nullable=True)
+    impact = db.Column(db.String(100), nullable=True)
+    added = db.Column(db.String(100), nullable=True)
+    published = db.Column(db.String(100), nullable=True)
+    country = db.Column(db.String(100), nullable=True)
+    relevance = db.Column(db.Integer, nullable=True)
+    pestle = db.Column(db.String(100), nullable=True)
+    source = db.Column(db.String(100), nullable=True)
+    title = db.Column(db.String(200), nullable=True)
+    likelihood = db.Column(db.Integer, nullable=True)
